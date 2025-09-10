@@ -16,6 +16,6 @@ public class CoinAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(RotationSpeed1 * Time.Deltatime, RotationSpeed2 * Time.Deltatime, RotationSpeed3 * Time.Deltatime, Space.World);
+        transform.Rotate(RotationSpeed1 * Time.deltaTime, RotationSpeed2 * Time.deltaTime, RotationSpeed3 * Time.deltaTime, Space.World);
     }
 }
